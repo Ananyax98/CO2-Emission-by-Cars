@@ -54,7 +54,6 @@ We experimented with different methods for model building
 ```python
 conda create -n envname python=3.7
 activate envname
-git clone https://github.com/d0r1h/CO2-Emission-by-Cars.git
 cd CO2-Emission-by-Cars
 pip install -r requirements.txt
 python app.py
