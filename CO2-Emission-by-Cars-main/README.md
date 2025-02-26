@@ -18,8 +18,7 @@ Project also aims at testing the influence of different independent features on 
 ### DataSet:
 
 * The dataset has been taken from the Canada Government official open data website and is available in [kaggle](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles)
-* Cleaned and processed version of the data can be accessed from [here](https://raw.githubusercontent.com/d0r1h/CO2-Emission-by-Cars/main/final_co2.csv)
-* Dataset contains 7385 datapoints and 12 columns.
+
 
 
 ### Notebook:
@@ -28,7 +27,7 @@ Notebook contains the EDA, data processing, and model building ideas.
 
 | Notebook | Colab | Kaggle |
 | ------ | ------ | ------ |
-| CO2 Emission | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/CO2-Emission-by-Cars/blob/main/notebook/co2-emission-by-cars.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/undersc0re/co2-emission-by-cars) |
+| CO2 Emission | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/d0r1h/CO2-Emission-by-Cars/blob/main/notebook/co2-emission-by-cars.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ananyasingh112/notebook3822dd69d3) |
 
 ### Models
 We experimented with different methods for model building 
@@ -74,7 +73,7 @@ python app.py
 
 ### Inference Demo:
 
-Application is deployed on heroku and can be accessed at https://coemission.herokuapp.com/ and following data can be used to test the application. 
+ 
 
 |Engine Size|Cylinders|Fuel Consumption City|Fuel Consumption Hwy|Fuel Consumption Comb| Fuel Consumption Comb (mpg) | Fuel Types | Transmission type | Make | Vechicle Class | CO2 Emissions | 
 | ------------- | ------------- | -------- | -------- |-------- |------- |------- | ------ | ------- | ------- | ------- |
